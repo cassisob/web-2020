@@ -1,0 +1,70 @@
+.carousel-item {
+  height: 50vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.texto {
+  padding: 50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-align: justify;
+  font-size: 24px;
+}
+
+.texto1 {
+  padding: 5vh;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.texto2 {
+  padding-left: 50px;
+  font-size: 48px;
+}
+
+.linha {
+  width: 5vh;
+  border: 5px solid lightblue;
+  border-radius: 4px;
+  margin: 15px;
+  margin-left: 50px;
+}
+
+.foto {
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+  padding-top: 30px;
+}
+
+.scrol1::-webkit-scrollbar-track {
+  background-color: #D5D5D5;
+}
+.scrol1::-webkit-scrollbar {
+  width: 10px;
+}
+.scrol1::-webkit-scrollbar-thumb {
+  background: #494949;
+}
+
+footer {
+  margin-top: 12vh;
+  text-align: center;
+	padding: 20px 0;
+  background-image: url(../images/image005.jpg);
+}
+
+.copyright {
+	color: #CCCCCC;
+	font-size: 13px;
+	margin-top: 20px;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <title> Atividade Final</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></head>
+
+  <body class='scrol1'>
+      <div class='container'>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">Atividade Final</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#header">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#t4">Quem Somos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <header id="header">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active" style="background-image: url('images/image001.png'); width: 100%;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4" style="color: black;"><a href="#t1" style="text-decoration: none; color: black;">DER</h2>
+                  <p class="lead" style="color: black;">Um pouco mais sobre</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image: url('images/image002.png')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4" style="color: black;"><a href="#t2" style="text-decoration: none; color: black;">MER</h2>
+                  <p class="lead"style="color: black;">Um pouco mais sobre</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image: url('images/image003.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4" style="color: black;"><a href="#t3" style="text-decoration: none; color: black;">Peter Chen</a></h2>
+                  <p class="lead" style="color: black;">Um pouco mais sobre</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="color: black;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </header>
+        <div style="padding-top: 6vh" id='t1'>
+          <p class='texto2'> <b> Diagrama Entidade Relacionamento </b> </p>
+          <hr class= 'linha'>
+          <p class='texto'> Enquanto o MER é um modelo conceitual, o Diagrama Entidade Relacionamento (Diagrama ER ou ainda DER) é a sua representação gráfica e principal ferramenta.
+                Em situações práticas, o diagrama é tido muitas vezes como sinônimo de modelo, uma vez que sem uma forma de visualizar as informações, o modelo pode ficar
+                abstrato demais para auxiliar no desenvolvimento do sistema. Dessa forma, quando se está modelando um domínio, o mais comum é já criar sua representação gráfica,
+                seguindo algumas regras. <br> <br style='line-height: 0.5;'> O diagrama facilita ainda a comunicação entre os integrantes da equipe, pois oferece uma linguagem comum
+                utilizada tanto pelo analista, responsável por levantar os
+                requisitos, e os desenvolvedores, responsáveis por implementar aquilo que foi modelado. <br> <br style='line-height: 0.5;'> Em sua notação original, proposta por
+                Peter Chen (idealizador do modelo e do diagrama), as entidades deveriam ser representadas por retângulos, seus atributos por
+                elipses e os relacionamentos por losangos, ligados às entidades por linhas, contendo também sua cardinalidade (1..1, 1..n ou n..n). Porém, notações mais modernas
+                abandonaram o uso de elipses para atributos e passaram a utilizar o formato mais utilizado na UML, em que os atributos já aparecem listados na própria entidade.
+                <br> <br style='line-height: 0.5;'> Essa forma torna o diagrama mais limpo e fácil de ser lido.
+        </div>
+
+        <p class='texto1'> EXEMPLO </p>
+
+        <img class='foto img-fluid' src='images/image007.png' alt='DER'>
+
+      <div style="padding-top: 6vh" id="t2">
+        <p class='texto2'> <b> Modelo Entidade Relacionamento </b> </p>
+        <hr class= 'linha'>
+        <p class='texto'> Um modelo E-R é uma maneira sistemática de descrever e definir um processo de negócio.
+              O processo é modelado como componentes (entidades) que são ligadas umas as outras por relacionamentos que expressam as dependências e exigências entre elas,
+              como: um edifício pode ser dividido em zero ou mais apartamentos, mas um apartamento pode estar localizado em apenas um edifício.
+              Entidades podem ter várias propriedades (atributos) que os caracterizam. Diagramas criados para representar graficamente essas entidades,
+              atributos e relacionamentos são chamados de diagramas entidade relacionamento. <br> <br style='line-height: 0.5;'> A notação original proposta por Peter Chen
+              é composta de entidades (retângulos), relacionamentos (losangos), atributos (elipses) e linhas de conexão (linhas) que indicam a cardinalidade de uma entidade
+              em um relacionamento. Os tipos de relacionamentos que são utilizadas neste diagrama:
+              <br> <br style='line-height: 0.5;'> <b>Relacionamento 1.1</b> (lê-se relacionamento um para um) - indica que as tabelas têm relacionamento apenas entre si.
+              <br> <br style='line-height: 0.5;'> <b>Relacionamento 1.n</b> (lê-se um para muitos) - a chave primária da tabela r que tem o lado 1 vai para a tabela do lado N. No lado N ela é chamada de chave estrangeira;
+              <br> <br style='line-height: 0.5;'> <b>Relacionamento n.n</b> (lê-se muitos para muitos) - quando tabelas têm entre si relacionamento n..n, é necessário criar uma nova tabela com as chaves primárias das tabelas envolvidas,
+               ficando assim uma chave composta, ou seja, formada por diversos campos-chave de outras tabelas.
+               O relacionamento então se reduz para uma relacionamento 1..n, sendo que o lado n ficará com a nova tabela criada.</p> <!-- texto do wikipedia haha-->
+      </div>
+
+      <p class='texto1'> EXEMPLO </p>
+
+      <img class='foto img-fluid' src='images/image004.png' alt='Modelo ER'>
+
+      <div style="padding-top: 6vh" id='t3'>
+        <p class='texto2'> <b> Peter Chen </b> </p>
+        <hr class= 'linha'>
+        <p class='texto'> Nascido em 1947 em Taichung, Taiwan, Peter Chen recebeu um BS em engenharia elétrica em 1968 na National Taiwan University,
+              e um Ph.D. em ciência da computação / matemática aplicada na Universidade de Harvard em 1973. Em 1970, ele trabalhou um verão na IBM.
+              Depois de se formar em Harvard, ele passou um ano na Honeywell e um verão na Digital Equipment Corporation.
+              <br> <br style='line-height: 0.5;'> De 1974 a 1978, Chen foi professor assistente na MIT Sloan School of Management.
+              De 1978 a 1983 ele foi professor associado da Universidade da Califórnia, Los Angeles (UCLA Management School).
+              De 1983 a 2011, Chen ocupou o cargo de MJ Foster Distinguished Chair Professor of Computer Science na Louisiana State University e,
+              por vários anos, professor adjunto na Business School e Medical School (Shreveport). Durante este período,
+              ele foi um professor visitante uma vez em Harvard em '89 -'90 e três vezes no Instituto de Tecnologia de Massachusetts
+              (Departamento de EECS em '86 -'87, Sloan School em '90 -'91, e Divisão de Sistemas de Engenharia em 06-'07).
+              De 2010 a 2020, Chen foi um distinto cientista de carreira e membro do corpo docente da Carnegie Mellon University, EUA.
+              <br> <br style='line-height: 0.5;'> Além de dar palestras em todo o mundo, ele também atuou como professor (honorário) fora dos Estados Unidos.
+              Em 1984, sob o patrocínio das Nações Unidas, ele ministrou um curso de curta duração de um mês sobre bancos de dados na
+              Universidade Huazhong de Ciência e Tecnologia em Wuhan, China , e foi premiado como Professor Honorário lá. Em seguida,
+              ele foi a Pequim como membro do comitê de programa da IEEE First International Conference on Computers and Applications
+              (a primeira grande conferência de informática do IEEE realizada na China). De 2008 a 2014, ele foi professor honorário do
+              Institute of Service Science da National Tsing Hua University, Taiwan. A partir de 2016, ele é Professor Honorário do
+              Departamento de Bioengenharia e Bioinformática, Asia University, Taiwan. </p> <!-- texto do wikipedia haha-->
+      </div>
+
+      <div style="padding-top: 6vh" id='t4'>
+        <p class='texto2'> <b> Quem somos </b> </p>
+        <hr class= 'linha'>
+      </div>
+
+    </div>
+
+      <section class="container">
+        <div class="row">
+          <article class="card col"  style="width: 18rem;">
+            <img src="images/image006.jpg" class="card-img-top" alt="Foto Bryan">
+            <div class="card-body">
+              <h5 class="card-title">Bryan Melo</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+              <a href="https://twitter.com/braiamelo" target="_blank" class="btn btn-primary">Twitter</a>
+            </div>
+          </article>
+
+          <article class="card col" style="width: 18rem;">
+            <img src="images/image006.jpg" class="card-img-top" alt="Foto Cassiano">
+            <div class="card-body">
+              <h5 class="card-title">Cassiano Soberai</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+              <a href="https://twitter.com/Cassisob" target="_blank" class="btn btn-primary">Twitter</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    <footer>
+      <p class="copyright">&copy; Copyright - eusguri 2021
+    </footer>
+
+  </body>
+
+
+</html>
